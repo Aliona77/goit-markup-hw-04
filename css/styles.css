@@ -242,34 +242,21 @@ img {
 .benefits-list-title {
   margin-bottom: 20px;
 }
-/*
-.benefits-list-item::before {
+
+.list-icon {
   display: block;
-  content: "";
+  width: 270px;
   height: 120px;
-  outline: 1px solid red;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #f5f4fa;
+  margin-bottom: 30px;
 }
-.benefits-list-item.icon-antenna::before {
-  background-image: url("../images/sprite.svg#icon-antenna");
+.icon-img {
+  width: 70px;
+  height: 70px;
 }
-
-.benefits-list-item.icon-benefits::before {
-  background-image: url("../images/sprite.svg#");
-}
-
-.benefits-list-item.icon-benefits::before {
-  background-image: url("../images/sprite.svg#");
-}
-
-.benefits-list-item.icon-benefits::before {
-  background-image: url("../images/sprite.svg#");
-}
-*/
-
 .our-work > .container {
   padding-bottom: 94px;
 }
@@ -343,7 +330,6 @@ img {
 .social-list {
   display: flex;
   justify-content: space-between;
-  color: #afb1b8;
 }
 .social-list-link {
   display: flex;
