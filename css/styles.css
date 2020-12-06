@@ -269,6 +269,7 @@ img {
   background-image: url("../images/sprite.svg#");
 }
 */
+
 .our-work > .container {
   padding-bottom: 94px;
 }
@@ -336,6 +337,35 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 16px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  color: #afb1b8;
+}
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #2196f3;
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: #ffffff;
 }
 
 .customers > .container {
