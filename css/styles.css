@@ -244,12 +244,11 @@ img {
 }
 
 .list-icon {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: #f5f4fa;
   margin-bottom: 30px;
 }
@@ -357,6 +356,32 @@ img {
 .customers > .container {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.costumers-list {
+  display: flex;
+  justify-content: space-between;
+}
+.costumers-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.costumers-list-link:hover,
+.costumers-list-link:focus {
+  background-color: #fff;
+}
+.costumer-list-link:hover .costumer-list-icon,
+.costumer-list-link:focus .costumer-list-icon {
+  fill: #ffffff;
+}
+.costumers-list-icon:hover,
+.costumers-list-icon:focus {
+  background-color: #2196f3;
 }
 
 /*============= End Main ===========*/
