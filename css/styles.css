@@ -124,14 +124,13 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
 .navigation-menu-link:hover,
 .navigation-menu-link:focus,
 .header-address-contact:hover,
 .header-address-contact:focus {
   color: #2196f3;
 }
-.navigation-menu-link.is-current {
+.navigation-menu-link.current {
   color: #2196f3;
 }
 .header .address {
