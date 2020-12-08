@@ -288,8 +288,8 @@ img {
 }
 .workers-list-item {
   margin-bottom: 94px;
-  /*box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);*/
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -299,11 +299,7 @@ img {
   box-sizing: border-box;
   overflow: hidden;
 }
-.workers-list-item:hover,
-.workers-list-item:focus {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-}
+
 .workers-content {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -490,10 +486,14 @@ img {
 .section-portfolio > .container {
   padding-top: 94px;
 }
+.modal-button-portfolio.is-current,
 .modal-button-portfolio:hover,
 .modal-button-portfolio:focus {
   background-color: #2196f3;
   color: #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .modal-button-portfolio {
@@ -520,6 +520,15 @@ img {
   margin-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
+}
+.portfolio-photo-link {
+  display: block;
+}
+.portfolio-photo-link:hover,
+.portfolio-photo-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  outline: none;
 }
 
 .work-examples-list {
@@ -551,6 +560,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
+  color: #212121;
 }
 .work-examples-text {
   font-family: var(--main-font);
@@ -563,10 +573,18 @@ img {
 
 .work-examples-content {
   padding: 28px 24px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #ffffff;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
   box-sizing: border-box;
 }
+
+/*.work-examples-content:hover,
+.work-examples-content:focus {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}*/
 /*=============End Portfolio==========*/
